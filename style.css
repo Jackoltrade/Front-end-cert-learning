@@ -1,0 +1,33 @@
+h1 {
+    color: blue;
+}
+
+#header1 {
+    color: beige;
+}
+
+.ayaya#no {
+    color: brown;
+}
+
+#adiv p {
+    color: chartreuse;
+} 
+
+div p {
+    color: cadetblue;
+}
+
+.parent {
+    border: 5px solid red;
+}
+
+.child {
+    border: 3px solid green;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: inline;
+    float: right;
+}
