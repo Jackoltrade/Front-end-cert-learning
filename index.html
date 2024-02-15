@@ -9,6 +9,10 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link
+      href="style.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <script
@@ -16,6 +20,14 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script>
+        window.onload = function() {
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+        context.font = "bold 32px Arial";
+        context.fillText("Hello World!", 50, 100);
+      }
+    </script>
     <div class="container">
       <div class="row">
         <div class="col-2 col-lg-8 col-sm-4 col-md-6 border border-primary">
@@ -100,6 +112,60 @@
         <option value="Fri">Fri</option>
       </datalist>
     </form>
+
+    <hr>
+    <h2>Try Flex</h2>
+    <div style="display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    row-gap: 50px;
+    flex: auto;">
+      <div style="background-color: aquamarine;
+      border-radius: 5px;
+      margin: 2px;
+      padding: 10px;">Mon</div>
+      <div style="background-color: aquamarine;
+      border-radius: 5px;
+      margin: 2px;
+      padding: 10px;">Tue</div>
+      <div style="background-color: aquamarine;
+      border-radius: 5px;
+      margin: 2px;
+      padding: 10px;
+      flex: 1 0 auto;">Wed</div>
+      <div style="background-color: aquamarine;
+      border-radius: 5px;
+      margin: 2px;
+      padding: 10px;">Tur</div>
+      <div style="background-color: aquamarine;
+      border-radius: 5px;
+      margin: 2px;
+      padding: 10px;">Fri</div>
+
+    </div>
+    <hr>
+<div id="id">
+  <h1>0.11111</h1>
+  <div>
+    <h1>11111</h1>
+  </div>
+  <div>
+    <h1>22222</h1>
+  </div>
+  <div>
+    <h1>33333</h1>
+  </div>
+</div>
+<h1>SameLevel</h1>
+<h1>SameLevel</h1>
+  <hr>
+  <h2>Iframe Demo- Target for a Link</h2>
+  <iframe height="200px" width="100%" src="iframe1.html" name="iframe1_a"></iframe> <p><a target="iframe1_a" href="https://jackzhouportfolio.info">EDUCBA</a></p>
+  <p>When the target of a link matches the name of an iframe, the link will open in the iframe.</p>
+  <hr>
+  <h2>Try Canvas</h2>
+  <canvas id="myCanvas" width="300" height="200"></canvas>
 
   </body>
 </html>

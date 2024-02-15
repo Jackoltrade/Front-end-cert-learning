@@ -1,6 +1,4 @@
-h1 {
-    color: blue;
-}
+
 
 #header1 {
     color: beige;
@@ -30,4 +28,8 @@ div p {
     text-align: center;
     display: inline;
     float: right;
+}
+
+#id + h1 {
+    color: blue;
 }
